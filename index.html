@@ -10,41 +10,51 @@
       font-family: Arial;
       background: #f4f4f4;
       text-align: center;
-      padding: 50px;
+      padding: 40px;
     }
 
     .box {
       background: white;
-      padding: 30px;
+      padding: 25px;
       border-radius: 15px;
-      max-width: 400px;
+      max-width: 420px;
       margin: auto;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      box-shadow: 0 0 12px rgba(0,0,0,0.1);
     }
 
     h1 {
       color: #222;
       font-size: 22px;
+      margin-bottom: 10px;
     }
 
     p {
       color: #555;
+      font-size: 15px;
       margin-bottom: 20px;
+      line-height: 1.6;
     }
 
     .btn {
-      display: inline-block;
+      display: block;
       background: #25D366;
       color: white;
-      padding: 15px 20px;
-      border-radius: 10px;
+      padding: 15px;
+      border-radius: 12px;
       text-decoration: none;
       font-size: 18px;
       font-weight: bold;
+      margin-top: 10px;
     }
 
     .btn:hover {
       background: #1ebe5d;
+    }
+
+    .note {
+      font-size: 12px;
+      color: #888;
+      margin-top: 15px;
     }
   </style>
 </head>
@@ -53,13 +63,29 @@
 
   <div class="box">
     <h1>تأجير عاملات منزلية</h1>
-    <p>نوفر عاملات تنظيف ورعاية منزلية بجودة عالية وسرعة تواصل عبر واتساب</p>
 
+    <p>
+      نوفر عاملات تنظيف ورعاية منزلية بجودة عالية وسرعة في الاستجابة<br>
+      تواصل معنا مباشرة عبر واتساب
+    </p>
+
+    <!-- زر واتساب مباشر -->
     <a class="btn"
-       href="https://wa.me/966530150488"
+       href="https://wa.me/966530150488?text=مرحباً، أريد الاستفسار عن الخدمة"
        target="_blank">
       تواصل عبر واتساب
     </a>
+
+    <!-- نسخة احتياطية لو المتصفح داخل فيسبوك -->
+    <a class="btn"
+       href="https://api.whatsapp.com/send?phone=966530150488&text=مرحباً، أريد الاستفسار عن الخدمة"
+       target="_blank">
+      فتح واتساب (خيار آخر)
+    </a>
+
+    <div class="note">
+      إذا لم يفتح واتساب مباشرة، اختر "فتح في المتصفح"
+    </div>
   </div>
 
 </body>
