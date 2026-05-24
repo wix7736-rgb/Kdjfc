@@ -2,59 +2,78 @@
 <html lang="ar">
 <head>
   <meta charset="UTF-8">
-  <title>تأجير عاملات منزلية</title>
+  <title>خدمة تأجير عاملات منزلية</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
-    body {
+    body{
       font-family: Arial;
-      background: #f4f4f4;
-      text-align: center;
-      padding: 40px;
+      background: linear-gradient(#f4f4f4,#e9e9e9);
+      margin:0;
+      padding:0;
+      text-align:center;
     }
 
-    .box {
-      background: white;
-      padding: 25px;
-      border-radius: 15px;
-      max-width: 420px;
-      margin: auto;
-      box-shadow: 0 0 12px rgba(0,0,0,0.1);
+    .box{
+      background:#fff;
+      max-width:420px;
+      margin:70px auto;
+      padding:25px;
+      border-radius:18px;
+      box-shadow:0 10px 25px rgba(0,0,0,0.1);
     }
 
-    h1 {
-      color: #222;
-      font-size: 22px;
-      margin-bottom: 10px;
+    h1{
+      font-size:22px;
+      color:#222;
+      margin-bottom:10px;
     }
 
-    p {
-      color: #555;
-      font-size: 15px;
-      margin-bottom: 20px;
-      line-height: 1.6;
+    p{
+      font-size:15px;
+      color:#555;
+      line-height:1.7;
+      margin-bottom:20px;
     }
 
-    .btn {
-      display: block;
-      background: #25D366;
-      color: white;
-      padding: 15px;
-      border-radius: 12px;
-      text-decoration: none;
-      font-size: 18px;
-      font-weight: bold;
-      margin-top: 10px;
+    .badge{
+      display:inline-block;
+      background:#ffefc1;
+      color:#7a5a00;
+      padding:6px 12px;
+      border-radius:20px;
+      font-size:12px;
+      margin-bottom:15px;
     }
 
-    .btn:hover {
-      background: #1ebe5d;
+    .btn{
+      display:block;
+      background:#25D366;
+      color:#fff;
+      padding:18px;
+      border-radius:14px;
+      text-decoration:none;
+      font-size:18px;
+      font-weight:bold;
+      margin-top:15px;
+      box-shadow:0 6px 15px rgba(37,211,102,0.3);
+      transition:0.2s;
     }
 
-    .note {
-      font-size: 12px;
-      color: #888;
-      margin-top: 15px;
+    .btn:hover{
+      background:#1ebe5d;
+      transform:scale(1.02);
+    }
+
+    .small{
+      font-size:12px;
+      color:#888;
+      margin-top:15px;
+    }
+
+    .icon{
+      font-size:20px;
+      margin-left:5px;
     }
   </style>
 </head>
@@ -62,30 +81,26 @@
 <body>
 
   <div class="box">
+
+    <div class="badge">⚡ رد سريع خلال دقائق</div>
+
     <h1>تأجير عاملات منزلية</h1>
 
     <p>
-      نوفر عاملات تنظيف ورعاية منزلية بجودة عالية وسرعة في الاستجابة<br>
-      تواصل معنا مباشرة عبر واتساب
+      نوفر عاملات تنظيف ورعاية منزلية بخبرة عالية<br>
+      تواصل مباشر وسريع عبر واتساب بدون تعقيد
     </p>
 
-    <!-- زر واتساب مباشر -->
     <a class="btn"
-       href="https://wa.me/966530150488?text=مرحباً، أريد الاستفسار عن الخدمة"
+       href="https://wa.me/966530150488?text=مرحباً، أريد الاستفسار عن خدمة تأجير العاملات المنزلية"
        target="_blank">
-      تواصل عبر واتساب
+      💬 تواصل عبر واتساب الآن
     </a>
 
-    <!-- نسخة احتياطية لو المتصفح داخل فيسبوك -->
-    <a class="btn"
-       href="https://api.whatsapp.com/send?phone=966530150488&text=مرحباً، أريد الاستفسار عن الخدمة"
-       target="_blank">
-      فتح واتساب (خيار آخر)
-    </a>
-
-    <div class="note">
-      إذا لم يفتح واتساب مباشرة، اختر "فتح في المتصفح"
+    <div class="small">
+      بالضغط على الزر سيتم تحويلك مباشرة إلى واتساب
     </div>
+
   </div>
 
 </body>
